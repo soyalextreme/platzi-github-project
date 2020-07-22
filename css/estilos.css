@@ -1,5 +1,10 @@
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: deeppink;
+  color: greenyellow;
+  background-color: black;
+}
+
+a {
+  color: rebeccapurple;
 }

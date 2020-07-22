@@ -2,9 +2,36 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: greenyellow;
-  background-color: black;
+  background-color: grey;
 }
 
 a {
   color: rebeccapurple;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 1.3;
+  box-shadow: 0px 2px 20px 0px violet;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 20rem 2rem 20rem;
+  text-decoration: none;
+  list-style: none;
+  color: paleturquoise;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding: 2rem;
 }

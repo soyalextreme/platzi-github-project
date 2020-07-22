@@ -39,3 +39,12 @@ ul {
   margin-top: 2rem;
   padding: 2rem;
 }
+
+footer {
+  background-color: white;
+  padding: 2rem;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
